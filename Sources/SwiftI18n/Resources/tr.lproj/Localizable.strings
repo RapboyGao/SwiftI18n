@@ -37,6 +37,7 @@
 "@Profile" = "Profil";
 "@Quit" = "Çıkış";
 "@Refresh" = "Yenile";
+"@Check" = "Denetle";
 "@Remove" = "Kaldır";
 "@Reset" = "Sıfırla";
 "@Retry" = "Tekrar Dene";

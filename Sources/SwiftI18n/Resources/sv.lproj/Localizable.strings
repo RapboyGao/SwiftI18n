@@ -37,6 +37,7 @@
 "@Profile" = "Profil";
 "@Quit" = "Avsluta";
 "@Refresh" = "Uppdatera";
+"@Check" = "Kontrollera";
 "@Remove" = "Ta bort";
 "@Reset" = "Återställ";
 "@Retry" = "Försök igen";

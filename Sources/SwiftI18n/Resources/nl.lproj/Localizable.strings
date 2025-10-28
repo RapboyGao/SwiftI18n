@@ -36,7 +36,8 @@
 "@Pending" = "In afwachting";
 "@Profile" = "Profiel";
 "@Quit" = "Afsluiten";
-"@Refresh" = "Vernieuwen";
+"@Refresh" = "Verversen";
+"@Check" = "Controleer";
 "@Remove" = "Verwijderen";
 "@Reset" = "Resetten";
 "@Retry" = "Opnieuw proberen";

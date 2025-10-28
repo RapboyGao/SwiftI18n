@@ -37,6 +37,7 @@
 "@Profile" = "Profil";
 "@Quit" = "Keluar";
 "@Refresh" = "Segarkan";
+"@Check" = "Periksa";
 "@Remove" = "Hapus";
 "@Reset" = "Reset";
 "@Retry" = "Coba Lagi";

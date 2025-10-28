@@ -37,6 +37,7 @@
 "@Profile" = "Profil";
 "@Quit" = "Ukončit";
 "@Refresh" = "Obnovit";
+"@Check" = "Zkontrolovat";
 "@Remove" = "Odstranit";
 "@Reset" = "Resetovat";
 "@Retry" = "Zkusit Znovu";

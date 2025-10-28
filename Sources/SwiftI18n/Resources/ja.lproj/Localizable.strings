@@ -37,6 +37,7 @@
 "@Profile" = "プロフィール";
 "@Quit" = "終了";
 "@Refresh" = "更新";
+"@Check" = "確認";
 "@Remove" = "削除";
 "@Reset" = "リセット";
 "@Retry" = "再試行";

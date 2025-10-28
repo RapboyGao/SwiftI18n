@@ -37,6 +37,7 @@
 "@Profile" = "Profilo";
 "@Quit" = "Esci";
 "@Refresh" = "Aggiorna";
+"@Check" = "Controllare";
 "@Remove" = "Rimuovi";
 "@Reset" = "Reimposta";
 "@Retry" = "Riprova";

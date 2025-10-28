@@ -37,6 +37,7 @@
 "@Profile" = "Perfil";
 "@Quit" = "Sair";
 "@Refresh" = "Atualizar";
+"@Check" = "Verificar";
 "@Remove" = "Remover";
 "@Reset" = "Redefinir";
 "@Retry" = "Tentar Novamente";

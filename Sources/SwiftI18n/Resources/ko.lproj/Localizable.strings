@@ -37,6 +37,8 @@
 "@Profile" = "프로필";
 "@Quit" = "종료";
 "@Refresh" = "새로 고침";
+"@Check" = "확인";
+
 "@Remove" = "제거";
 "@Reset" = "초기화";
 "@Retry" = "다시 시도";

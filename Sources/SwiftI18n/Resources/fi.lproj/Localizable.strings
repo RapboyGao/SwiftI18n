@@ -37,6 +37,7 @@
 "@Profile" = "Profiili";
 "@Quit" = "Lopeta";
 "@Refresh" = "Päivitä";
+"@Check" = "Tarkista";
 "@Remove" = "Poista";
 "@Reset" = "Nollaa";
 "@Retry" = "Yritä uudelleen";

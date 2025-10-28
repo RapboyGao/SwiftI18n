@@ -37,6 +37,7 @@
 "@Profile" = "Hồ sơ";
 "@Quit" = "Thoát";
 "@Refresh" = "Làm mới";
+"@Check" = "Kiểm tra";
 "@Remove" = "Xóa";
 "@Reset" = "Đặt lại";
 "@Retry" = "Thử lại";

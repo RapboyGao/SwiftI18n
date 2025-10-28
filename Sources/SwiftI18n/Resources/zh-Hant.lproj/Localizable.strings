@@ -37,6 +37,7 @@
 "@Profile" = "個人資料";
 "@Quit" = "退出";
 "@Refresh" = "刷新";
+"@Check" = "檢查";
 "@Remove" = "移除";
 "@Reset" = "重置";
 "@Retry" = "重試";

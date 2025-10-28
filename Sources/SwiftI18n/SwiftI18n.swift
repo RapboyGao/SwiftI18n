@@ -18,6 +18,8 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case back = "@Back"
     /// 取消
     case cancel = "@Cancel"
+    /// 检查
+    case check = "@Check"
     /// 清除
     case clear = "@Clear"
     /// 关闭
@@ -86,6 +88,7 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case quit = "@Quit"
     /// 刷新
     case refresh = "@Refresh"
+    
     /// 删除
     case remove = "@Remove"
     /// 重置
@@ -188,6 +191,7 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         case .profile: return "person"
         case .quit: return "xmark"
         case .refresh: return "arrow.clockwise"
+        case .check: return "checkmark.circle"
         case .remove: return "minus"
         case .reset: return "arrow.clockwise"
         case .retry: return "arrow.clockwise"

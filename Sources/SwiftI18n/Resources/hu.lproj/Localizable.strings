@@ -37,6 +37,7 @@
 "@Profile" = "Profil";
 "@Quit" = "Kilépés";
 "@Refresh" = "Frissítés";
+"@Check" = "Ellenőrizze";
 "@Remove" = "Eltávolítás";
 "@Reset" = "Alaphelyzetbe Állítás";
 "@Retry" = "Újrapróbálkozás";

@@ -36,7 +36,8 @@
 "@Pending" = "În Așteptare";
 "@Profile" = "Profil";
 "@Quit" = "Ieșire";
-"@Refresh" = "Reîmprospătează";
+"@Refresh" = "Reîmprospătare";
+"@Check" = "Verifica";
 "@Remove" = "Elimină";
 "@Reset" = "Resetează";
 "@Retry" = "Reîncearcă";

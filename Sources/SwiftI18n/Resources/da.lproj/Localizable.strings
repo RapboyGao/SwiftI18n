@@ -37,6 +37,7 @@
 "@Profile" = "Profil";
 "@Quit" = "Afslut";
 "@Refresh" = "Genopfrisk";
+"@Check" = "Tjek";
 "@Remove" = "Fjern";
 "@Reset" = "Nulstil";
 "@Retry" = "Prøv Igen";
