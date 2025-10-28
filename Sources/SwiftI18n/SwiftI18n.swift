@@ -68,6 +68,12 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case upload = "@Upload"
     case warning = "@Warning"
 
+    /// A list of all supported languages for internationalization.
+    ///
+    /// This property returns an array of strings representing the supported languages.
+    /// The languages are determined by the available language bundles in the bundle's resource path.
+    ///
+    /// - Returns: An array of strings representing the supported languages.
     public static let allSupportedLanguages: [String] = {
         guard let bundlePath = Bundle.module.resourcePath else {
             return []
@@ -82,6 +88,12 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         return languages
     }()
 
+    /// The default system image for the current case.
+    ///
+    /// This property returns the default system image name for the current case.
+    /// The system image names are used to represent the action or state of the case in a user interface.
+    ///
+    /// - Returns: The default system image name for the current case.
     public var defaultSystemImage: String {
         switch self {
         case .add: return "plus"
@@ -141,6 +153,13 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         }
     }
 
+    /// Returns the language bundle for the specified language.
+    ///
+    /// This method returns the language bundle for the specified language.
+    /// If no language is specified, the main bundle is returned.
+    ///
+    /// - Parameter language: The language for which to return the bundle.
+    /// - Returns: The language bundle for the specified language, or the main bundle if no language is specified.
     public static func languageBundle(language: String? = nil) -> Bundle {
         guard let language = language,
             let bundlePath = Bundle.module.resourcePath
@@ -152,12 +171,25 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         return thisBundle ?? .module
     }
 
+    /// Returns the localized string for the current case in the specified language.
+    ///
+    /// This method returns the localized string for the current case in the specified language.
+    /// If no language is specified, the main bundle is used.
+    ///
+    /// - Parameter language: The language for which to return the localized string.
+    /// - Returns: The localized string for the current case in the specified language.
     public func localizedString(in language: String? = nil) -> String {
         let bundle = Self.languageBundle(language: language)
         return NSLocalizedString(
             rawValue, bundle: bundle, comment: "The text shown on the button of \(rawValue)")
     }
 
+    /// The localized description of the case.
+    ///
+    /// This property returns the localized description of the case.
+    /// The description is used to represent the action or state of the case in a user interface.
+    ///
+    /// - Returns: The localized description of the case.
     public var description: String {
         // Use main bundle instead of module bundle since we don't have resources
         // This ensures the app can still build properly
