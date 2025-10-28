@@ -2,10 +2,19 @@ import SwiftUI
 
 @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
 struct SwiftI18nTestView: View {
+    @State private var selectedLanguage: String = "zh-Hans"
+
     var body: some View {
-        List(SwiftI18n.allCases) { item in
-            Button(item.description, systemImage: item.defaultSystemImage) {
-                //
+        List {
+            Picker("Language", selection: $selectedLanguage) {
+                ForEach(SwiftI18n.allSupportedLanguages, id: \.self) { language in
+                    Text(language)
+                }
+            }
+            ForEach(SwiftI18n.allCases) { item in
+                Button(item.localizedString(in: selectedLanguage), systemImage: item.defaultSystemImage) {
+                    //
+                }
             }
         }
     }
