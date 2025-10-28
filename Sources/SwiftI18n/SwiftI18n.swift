@@ -68,6 +68,20 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case upload = "@Upload"
     case warning = "@Warning"
 
+    public static let allSupportedLanguages: [String] = {
+        guard let bundlePath = Bundle.module.resourcePath else {
+            return []
+        }
+        // 查找所有可用的语言包
+        let fileManager = FileManager.default
+        guard let contents = try? fileManager.contentsOfDirectory(atPath: bundlePath) else {
+            return []
+        }
+        let languageBundles = contents.filter { $0.hasSuffix(".lproj") }
+        let languages = languageBundles.map { String($0.dropLast(6)) }
+        return languages
+    }()
+
     public var defaultSystemImage: String {
         switch self {
         case .add: return "plus"
