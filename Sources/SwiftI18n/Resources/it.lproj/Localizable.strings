@@ -52,5 +52,6 @@
 "@Success" = "Successo";
 "@System" = "Sistema";
 "@Update" = "Aggiorna";
-"@Upload" = "Carica";
+"@Upload" = "Caricare";
+"@View" = "Visualizza";
 "@Warning" = "Avviso";

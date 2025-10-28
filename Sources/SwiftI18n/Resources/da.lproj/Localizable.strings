@@ -53,4 +53,5 @@
 "@System" = "System";
 "@Update" = "Opdater";
 "@Upload" = "Upload";
+"@View" = "Vis";
 "@Warning" = "Advarsel";

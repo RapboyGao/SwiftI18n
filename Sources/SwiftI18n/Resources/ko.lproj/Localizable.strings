@@ -53,4 +53,5 @@
 "@System" = "시스템";
 "@Update" = "업데이트";
 "@Upload" = "업로드";
+"@View" = "보기";
 "@Warning" = "경고";

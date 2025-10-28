@@ -52,5 +52,6 @@
 "@Success" = "Framgång";
 "@System" = "System";
 "@Update" = "Uppdatera";
-"@Upload" = "Ladda upp";
+"@Upload" = "Ladda Upp";
+"@View" = "Visa";
 "@Warning" = "Varning";

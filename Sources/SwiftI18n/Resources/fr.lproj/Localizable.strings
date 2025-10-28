@@ -52,5 +52,6 @@
 "@Success" = "Succès";
 "@System" = "Système";
 "@Update" = "Mettre à Jour";
-"@Upload" = "Téléverser";
+"@Upload" = "Télécharger";
+"@View" = "Voir";
 "@Warning" = "Avertissement";

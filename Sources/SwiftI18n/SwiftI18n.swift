@@ -118,6 +118,8 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case update = "@Update"
     /// 上传
     case upload = "@Upload"
+    /// 查看
+    case view = "@View"
     /// 警告
     case warning = "@Warning"
 
@@ -202,6 +204,7 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         case .system: return "gearshape"
         case .update: return "arrow.up.right"
         case .upload: return "arrow.up"
+        case .view: return "eye"
         case .warning: return "exclamationmark.triangle"
         }
     }
