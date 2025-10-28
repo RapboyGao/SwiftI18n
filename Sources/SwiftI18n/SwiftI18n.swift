@@ -3,7 +3,11 @@ import SwiftUI
 
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
-public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, CustomStringConvertible {
+public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, CustomStringConvertible,
+    Identifiable
+{
+    public var id: SwiftI18n { self }
+
     case done = "@Done"
     case cancel = "@Cancel"
     case confirm = "@Confirm"
