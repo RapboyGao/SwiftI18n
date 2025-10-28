@@ -127,6 +127,23 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         }
     }
 
+    public static func languageBundle(language: String? = nil) -> Bundle {
+        guard let language = language,
+            let bundlePath = Bundle.module.resourcePath
+        else {
+            return .module
+        }
+        let languageBundlePath = "\(bundlePath)/\(language).lproj"
+        let thisBundle = Bundle(path: languageBundlePath)
+        return thisBundle ?? .module
+    }
+
+    public func localizedString(in language: String? = nil) -> String {
+        let bundle = Self.languageBundle(language: language)
+        return NSLocalizedString(
+            rawValue, bundle: bundle, comment: "The text shown on the button of \(rawValue)")
+    }
+
     public var description: String {
         // Use main bundle instead of module bundle since we don't have resources
         // This ensures the app can still build properly
