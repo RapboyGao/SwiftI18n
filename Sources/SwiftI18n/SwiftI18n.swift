@@ -12,60 +12,113 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     Identifiable
 {
     public var id: SwiftI18n { self }
-
+    /// 添加
     case add = "@Add"
+    /// 返回
     case back = "@Back"
+    /// 取消
     case cancel = "@Cancel"
+    /// 清除
     case clear = "@Clear"
+    /// 关闭
     case close = "@Close"
+    /// 配置
     case configure = "@Configure"
+    /// 确认
     case confirm = "@Confirm"
+    /// 继续
     case continue_ = "@Continue"
+    /// 拷贝
     case copy = "@Copy"
+    /// 创建
     case create = "@Create"
+    /// 剪切
     case cut = "@Cut"
+    /// 删除
     case delete = "@Delete"
+    /// 取消选择所有
     case deselectAll = "@DeselectAll"
+    /// 完成
     case done = "@Done"
+    /// 下载
     case download = "@Download"
+    /// 编辑
     case edit = "@Edit"
+    /// 错误
     case error = "@Error"
+    /// 导出
     case export = "@Export"
+    /// 筛选
     case filter = "@Filter"
+    /// 转发
     case forward = "@Forward"
+    /// 主页
     case home = "@Home"
+    /// 导入
     case import_ = "@Import"
+    /// 信息
     case info = "@Info"
+    /// 更少
     case less = "@Less"
+    /// 加载
     case load = "@Load"
+    /// 加载中
     case loading = "@Loading"
+    /// 最大化
     case maximize = "@Maximize"
+    /// 菜单
     case menu = "@Menu"
+    /// 最小化
     case minimize = "@Minimize"
+    /// 更多
     case more = "@More"
+    /// 通知
     case notifications = "@Notifications"
+    /// 打开
     case open = "@Open"
+    /// 粘贴
     case paste = "@Paste"
+    /// 待处理
     case pending = "@Pending"
+    /// 个人资料
     case profile = "@Profile"
+    /// 退出
     case quit = "@Quit"
+    /// 刷新
     case refresh = "@Refresh"
+    /// 删除
     case remove = "@Remove"
+    /// 重置
     case reset = "@Reset"
+    /// 重试
     case retry = "@Retry"
+    /// 保存
     case save = "@Save"
+    /// 另存为
     case saveAs = "@SaveAs"
+    /// 搜索
     case search = "@Search"
+    /// 选择所有
     case selectAll = "@SelectAll"
+    /// 发送
     case send = "@Send"
+    /// 设置
     case settings = "@Settings"
+    /// 分享
     case share = "@Share"
+    /// 跳过
     case skip = "@Skip"
+    /// 排序
     case sort = "@Sort"
+    /// 成功
     case success = "@Success"
+    /// 系统
     case system = "@System"
+    /// 更新
     case update = "@Update"
+    /// 上传
     case upload = "@Upload"
+    /// 警告
     case warning = "@Warning"
 
     /// A list of all supported languages for internationalization.

@@ -12,9 +12,7 @@ struct SwiftI18nTestView: View {
                 }
             }
             ForEach(SwiftI18n.allCases) { item in
-                Button(item.localizedString(in: selectedLanguage), systemImage: item.defaultSystemImage) {
-                    //
-                }
+                Label(item.localizedString(in: selectedLanguage) + item.rawValue, systemImage: item.defaultSystemImage)
             }
         }
     }
