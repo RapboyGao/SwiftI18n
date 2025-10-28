@@ -33,6 +33,39 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case import_ = "@Import"
     case export = "@Export"
 
+    public var defaultSystemImage: String {
+        switch self {
+        case .done: return "checkmark.circle.fill"
+        case .cancel: return "xmark.circle.fill"
+        case .confirm: return "checkmark.circle.fill"
+        case .quit: return "xmark.circle.fill"
+        case .edit: return "pencil.circle.fill"
+        case .delete: return "trash.circle.fill"
+        case .remove: return "minus.circle.fill"
+        case .reset: return "arrow.clockwise.circle.fill"
+        case .clear: return "trash.circle.fill"
+        case .search: return "magnifyingglass.circle.fill"
+        case .filter: return "line.3.horizontal.decrease.circle.fill"
+        case .sort: return "arrow.up.arrow.down.circle.fill"
+        case .more: return "ellipsis.circle.fill"
+        case .less: return "minus.circle.fill"
+        case .required: return "exclamationmark.circle.fill"
+        case .invalid: return "exclamationmark.circle.fill"
+        case .unknown: return "questionmark.circle.fill"
+        case .get: return "arrow.down.circle.fill"
+        case .common: return "textformat.123"
+        case .communication: return "phone.fill"
+        case .network: return "wifi.fill"
+        case .storage: return "harddrive.fill"
+        case .database: return "database.fill"
+        case .file: return "doc.fill"
+        case .system: return "gearshape.fill"
+        case .share: return "square.and.arrow.up.fill"
+        case .import_: return "arrow.down.to.line.alt.fill"
+        case .export: return "arrow.up.to.line.alt.fill"
+        }
+    }
+
     public var description: String {
         NSLocalizedString(
             rawValue, bundle: .module, comment: "The text shown on the button of \(rawValue)")
