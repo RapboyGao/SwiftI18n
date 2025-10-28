@@ -3,7 +3,7 @@ import SwiftUI
 
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
-public enum SwiftI18n: String, Codable, Sendable, Hashable, CustomStringConvertible {
+public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, CustomStringConvertible {
     case done = "@Done"
     case cancel = "@Cancel"
     case confirm = "@Confirm"
@@ -34,7 +34,8 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CustomStringConverti
     case export = "@Export"
 
     public var description: String {
-        NSLocalizedString(rawValue, bundle: .module, comment: "The text shown on the button of \(rawValue)")
+        NSLocalizedString(
+            rawValue, bundle: .module, comment: "The text shown on the button of \(rawValue)")
     }
 
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
