@@ -48,10 +48,12 @@
 "@Send" = "Gửi";
 "@Settings" = "Cài đặt";
 "@Share" = "Chia sẻ";
+"@Show" = "Hiển thị";
 "@Skip" = "Bỏ qua";
 "@Sort" = "Sắp xếp";
 "@Success" = "Thành công";
 "@System" = "Hệ thống";
+"@Hide" = "Ẩn";
 "@Update" = "Cập nhật";
 "@Upload" = "Tải lên";
 "@View" = "Xem";

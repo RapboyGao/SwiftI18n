@@ -48,10 +48,12 @@
 "@Send" = "發送";
 "@Settings" = "設置";
 "@Share" = "分享";
+"@Show" = "顯示";
 "@Skip" = "跳過";
 "@Sort" = "排序";
 "@Success" = "成功";
 "@System" = "系統";
+"@Hide" = "隱藏";
 "@Update" = "更新";
 "@Upload" = "上傳";
 "@View" = "查看";

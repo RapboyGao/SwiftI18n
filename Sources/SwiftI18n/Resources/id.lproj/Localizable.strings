@@ -48,10 +48,12 @@
 "@Send" = "Kirim";
 "@Settings" = "Pengaturan";
 "@Share" = "Bagikan";
+"@Show" = "Tampilkan";
 "@Skip" = "Lewati";
 "@Sort" = "Urutkan";
-"@Success" = "Sukses";
+"@Success" = "Berhasil";
 "@System" = "Sistem";
+"@Hide" = "Sembunyikan";
 "@Update" = "Perbarui";
 "@Upload" = "Unggah";
 "@View" = "Lihat";

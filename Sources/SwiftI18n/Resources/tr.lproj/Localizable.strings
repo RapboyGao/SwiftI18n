@@ -48,10 +48,12 @@
 "@Send" = "Gönder";
 "@Settings" = "Ayarlar";
 "@Share" = "Paylaş";
+"@Show" = "Göster";
 "@Skip" = "Atla";
 "@Sort" = "Sırala";
 "@Success" = "Başarılı";
 "@System" = "Sistem";
+"@Hide" = "Gizle";
 "@Update" = "Güncelle";
 "@Upload" = "Yükle";
 "@View" = "Görüntüle";

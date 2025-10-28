@@ -48,10 +48,12 @@
 "@Send" = "Lähetä";
 "@Settings" = "Asetukset";
 "@Share" = "Jaa";
+"@Show" = "Näytä";
 "@Skip" = "Ohita";
 "@Sort" = "Järjestä";
 "@Success" = "Onnistui";
 "@System" = "Järjestelmä";
+"@Hide" = "Piilota";
 "@Update" = "Päivitä";
 "@Upload" = "Lähetä ylös";
 "@View" = "Katso";

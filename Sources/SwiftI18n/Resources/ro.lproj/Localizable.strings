@@ -48,10 +48,12 @@
 "@Send" = "Trimite";
 "@Settings" = "Setări";
 "@Share" = "Partajează";
-"@Skip" = "Sari Peste";
+"@Show" = "Afișează";
+"@Skip" = "Omite";
 "@Sort" = "Sortează";
 "@Success" = "Succes";
 "@System" = "Sistem";
+"@Hide" = "Ascunde";
 "@Update" = "Actualizează";
 "@Upload" = "Încarcă";
 "@View" = "Vizualizează";

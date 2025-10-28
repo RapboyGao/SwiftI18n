@@ -109,6 +109,8 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case settings = "@Settings"
     /// 分享
     case share = "@Share"
+    /// 显示
+    case show = "@Show"
     /// 跳过
     case skip = "@Skip"
     /// 排序
@@ -117,6 +119,8 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case success = "@Success"
     /// 系统
     case system = "@System"
+    /// 隐藏
+    case hide = "@Hide"
     /// 更新
     case update = "@Update"
     /// 上传
@@ -202,10 +206,12 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         case .send: return "paperplane"
         case .settings: return "gearshape"
         case .share: return "square.and.arrow.up"
+        case .show: return "eye"
         case .skip: return "arrow.right.circle"
         case .sort: return "arrow.up.arrow.down.circle"
         case .success: return "checkmark.seal"
         case .system: return "desktopcomputer"
+        case .hide: return "eye.slash"
         case .update: return "arrow.up.circle"
         case .upload: return "arrow.up.circle"
         case .view: return "eye"

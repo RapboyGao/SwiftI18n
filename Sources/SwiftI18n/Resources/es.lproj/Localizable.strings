@@ -48,10 +48,12 @@
 "@Send" = "Enviar";
 "@Settings" = "Configuración";
 "@Share" = "Compartir";
-"@Skip" = "Saltar";
+"@Show" = "Mostrar";
+"@Skip" = "Omitir";
 "@Sort" = "Ordenar";
 "@Success" = "Éxito";
 "@System" = "Sistema";
+"@Hide" = "Ocultar";
 "@Update" = "Actualizar";
 "@Upload" = "Subir";
 "@View" = "Ver";

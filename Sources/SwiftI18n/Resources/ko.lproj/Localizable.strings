@@ -49,10 +49,12 @@
 "@Send" = "보내기";
 "@Settings" = "설정";
 "@Share" = "공유";
+"@Show" = "표시";
 "@Skip" = "건너뛰기";
 "@Sort" = "정렬";
 "@Success" = "성공";
 "@System" = "시스템";
+"@Hide" = "숨기기";
 "@Update" = "업데이트";
 "@Upload" = "업로드";
 "@View" = "보기";

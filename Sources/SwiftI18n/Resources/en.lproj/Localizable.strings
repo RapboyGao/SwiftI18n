@@ -48,10 +48,12 @@
 "@Send" = "Send";
 "@Settings" = "Settings";
 "@Share" = "Share";
+"@Show" = "Show";
 "@Skip" = "Skip";
 "@Sort" = "Sort";
 "@Success" = "Success";
 "@System" = "System";
+"@Hide" = "Hide";
 "@Update" = "Update";
 "@Upload" = "Upload";
 "@View" = "View";

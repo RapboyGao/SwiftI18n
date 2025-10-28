@@ -48,10 +48,12 @@
 "@Send" = "Odeslat";
 "@Settings" = "Nastavení";
 "@Share" = "Sdílet";
+"@Show" = "Zobrazit";
 "@Skip" = "Přeskočit";
-"@Sort" = "Seřadit";
+"@Sort" = "Řadit";
 "@Success" = "Úspěch";
 "@System" = "Systém";
+"@Hide" = "Skrýt";
 "@Update" = "Aktualizovat";
 "@Upload" = "Nahrát";
 "@View" = "Zobrazit";

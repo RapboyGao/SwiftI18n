@@ -48,10 +48,12 @@
 "@Send" = "Küldés";
 "@Settings" = "Beállítások";
 "@Share" = "Megosztás";
+"@Show" = "Megjelenítés";
 "@Skip" = "Kihagyás";
-"@Sort" = "Rendezés";
+"@Sort" = "Rendez";
 "@Success" = "Siker";
 "@System" = "Rendszer";
+"@Hide" = "Elrejtés";
 "@Update" = "Frissítés";
 "@Upload" = "Feltöltés";
 "@View" = "Megtekintés";

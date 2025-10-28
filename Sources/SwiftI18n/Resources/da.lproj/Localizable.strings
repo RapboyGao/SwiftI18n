@@ -48,10 +48,12 @@
 "@Send" = "Send";
 "@Settings" = "Indstillinger";
 "@Share" = "Del";
-"@Skip" = "Spring Over";
-"@Sort" = "Sorter";
+"@Show" = "Vis";
+"@Skip" = "Spring over";
+"@Sort" = "Sortér";
 "@Success" = "Succes";
 "@System" = "System";
+"@Hide" = "Skjul";
 "@Update" = "Opdater";
 "@Upload" = "Upload";
 "@View" = "Vis";
