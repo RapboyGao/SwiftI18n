@@ -4,8 +4,8 @@ import SwiftUI
 struct SwiftI18nTestView: View {
     var body: some View {
         List(SwiftI18n.allCases) { item in
-            item.buttonWithDefaultImage {
-                ()
+            Button(item.description, systemImage: item.defaultSystemImage) {
+                //
             }
         }
     }

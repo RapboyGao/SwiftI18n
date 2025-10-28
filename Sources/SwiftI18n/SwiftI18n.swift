@@ -27,33 +27,25 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case sort = "@Sort"
     case more = "@More"
     case less = "@Less"
-    case required = "@Required"
-    case invalid = "@Invalid"
-    case unknown = "@Unknown"
-    case get = "@Get"
-    case common = "@Common"
-    case communication = "@Communication"
-    case network = "@Network"
-    case storage = "@Storage"
-    case database = "@Database"
-    case file = "@File"
+    case create = "@Create"
     case system = "@System"
     case share = "@Share"
     case import_ = "@Import"
     case export = "@Export"
-    
+    case open = "@Open"
+    case close = "@Close"
+
     // 导航相关
     case back = "@Back"
     case forward = "@Forward"
     case home = "@Home"
     case menu = "@Menu"
-    case close = "@Close"
     case minimize = "@Minimize"
     case maximize = "@Maximize"
     case settings = "@Settings"
     case profile = "@Profile"
     case notifications = "@Notifications"
-    
+
     // 用户交互相关
     case save = "@Save"
     case saveAs = "@SaveAs"
@@ -62,14 +54,13 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case download = "@Download"
     case refresh = "@Refresh"
     case add = "@Add"
-    case create = "@Create"
     case update = "@Update"
     case copy = "@Copy"
     case paste = "@Paste"
     case cut = "@Cut"
     case selectAll = "@SelectAll"
     case deselectAll = "@DeselectAll"
-    
+
     // 状态相关
     case success = "@Success"
     case error = "@Error"
@@ -83,79 +74,69 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
 
     public var defaultSystemImage: String {
         switch self {
-        case .done: return "checkmark.circle.fill"
-        case .cancel: return "xmark.circle.fill"
-        case .confirm: return "checkmark.circle.fill"
-        case .quit: return "xmark.circle.fill"
-        case .edit: return "pencil.circle.fill"
-        case .delete: return "trash.circle.fill"
-        case .remove: return "minus.circle.fill"
-        case .reset: return "arrow.clockwise.circle.fill"
-        case .clear: return "trash.circle.fill"
-        case .search: return "magnifyingglass.circle.fill"
-        case .filter: return "line.3.horizontal.decrease.circle.fill"
-        case .sort: return "arrow.up.arrow.down.circle.fill"
-        case .more: return "ellipsis.circle.fill"
-        case .less: return "minus.circle.fill"
-        case .required: return "exclamationmark.circle.fill"
-        case .invalid: return "exclamationmark.circle.fill"
-        case .unknown: return "questionmark.circle.fill"
-        case .get: return "arrow.down.circle.fill"
-        case .common: return "textformat.123"
-        case .communication: return "phone.fill"
-        case .network: return "wifi.fill"
-        case .storage: return "harddrive.fill"
-        case .database: return "database.fill"
-        case .file: return "doc.fill"
-        case .system: return "gearshape.fill"
-        case .share: return "square.and.arrow.up.fill"
-        case .import_: return "arrow.down.to.line.alt.fill"
-        case .export: return "arrow.up.to.line.alt.fill"
-        
+        case .done: return "checkmark"
+        case .cancel: return "xmark"
+        case .confirm: return "checkmark"
+        case .quit: return "xmark"
+        case .edit: return "pencil"
+        case .open: return "arrow.up.right"
+        case .close: return "xmark"
+        case .delete: return "trash"
+        case .remove: return "minus"
+        case .reset: return "arrow.clockwise"
+        case .clear: return "trash"
+        case .search: return "magnifyingglass"
+        case .filter: return "line.3.horizontal.decrease"
+        case .sort: return "arrow.up.arrow.down"
+        case .more: return "ellipsis"
+        case .less: return "minus"
+        case .create: return "doc"
+        case .system: return "gearshape"
+        case .share: return "square.and.arrow.up"
+        case .import_: return "arrow.down.to.line.alt"
+        case .export: return "arrow.up.to.line.alt"
         // 导航相关图标
-        case .back: return "chevron.backward.circle.fill"
-        case .forward: return "chevron.forward.circle.fill"
-        case .home: return "house.circle.fill"
-        case .menu: return "list.bullet.circle.fill"
-        case .close: return "xmark.circle.fill"
-        case .minimize: return "minus.circle.fill"
-        case .maximize: return "plus.circle.fill"
-        case .settings: return "gearshape.circle.fill"
-        case .profile: return "person.circle.fill"
-        case .notifications: return "bell.circle.fill"
-        
+        case .back: return "chevron.backward"
+        case .forward: return "chevron.forward"
+        case .home: return "house"
+        case .menu: return "list.bullet"
+        case .minimize: return "minus"
+        case .maximize: return "plus"
+        case .settings: return "gearshape"
+        case .profile: return "person"
+        case .notifications: return "bell"
         // 用户交互相关图标
-        case .save: return "square.and.arrow.down.circle.fill"
-        case .saveAs: return "square.and.arrow.down.on.square.fill"
-        case .load: return "square.and.arrow.up.circle.fill"
-        case .upload: return "arrow.up.circle.fill"
-        case .download: return "arrow.down.circle.fill"
-        case .refresh: return "arrow.clockwise.circle.fill"
-        case .add: return "plus.circle.fill"
-        case .create: return "square.and.pencil.circle.fill"
-        case .update: return "arrow.up.right.circle.fill"
-        case .copy: return "doc.on.doc.circle.fill"
-        case .paste: return "doc.paste.circle.fill"
-        case .cut: return "scissors.circle.fill"
-        case .selectAll: return "select.all.circle.fill"
-        case .deselectAll: return "deselect.all.circle.fill"
-        
+        case .save: return "square.and.arrow.down"
+        case .saveAs: return "square.and.arrow.down.on.square"
+        case .load: return "square.and.arrow.up"
+        case .upload: return "arrow.up"
+        case .download: return "arrow.down"
+        case .refresh: return "arrow.clockwise"
+        case .add: return "plus"
+        case .update: return "arrow.up.right"
+        case .copy: return "doc.on.doc"
+        case .paste: return "document.on.clipboard"
+        case .cut: return "scissors"
+        case .selectAll: return "checkmark.square"
+        case .deselectAll: return "minus.square"
         // 状态相关图标
-        case .success: return "checkmark.circle.fill"
-        case .error: return "xmark.circle.fill"
-        case .warning: return "exclamationmark.triangle.fill"
-        case .info: return "info.circle.fill"
-        case .pending: return "clock.circle.fill"
-        case .loading: return "gear.circle.fill"
-        case .retry: return "arrow.clockwise.circle.fill"
-        case .skip: return "arrow.right.circle.fill"
-        case .continue_: return "arrow.right.to.line.circle.fill"
+        case .success: return "checkmark"
+        case .error: return "xmark"
+        case .warning: return "exclamationmark.triangle"
+        case .info: return "info"
+        case .pending: return "clock"
+        case .loading: return "gear"
+        case .retry: return "arrow.clockwise"
+        case .skip: return "arrow.right"
+        case .continue_: return "arrow.right.to.line"
         }
     }
 
     public var description: String {
+        // Use main bundle instead of module bundle since we don't have resources
+        // This ensures the app can still build properly
         NSLocalizedString(
-            rawValue, bundle: .module, comment: "The text shown on the button of \(rawValue)")
+            rawValue, bundle: Bundle.main, comment: "The text shown on the button of \(rawValue)")
     }
 
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
@@ -177,5 +158,4 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     public func buttonWithDefaultImage(action: @escaping () -> Void) -> some View {
         Button(description, systemImage: defaultSystemImage, action: action)
     }
-
 }
