@@ -58,3 +58,9 @@
 "@Upload" = "Upload";
 "@View" = "Vis";
 "@Warning" = "Advarsel";
+"@Redo" = "Gendan";
+"@Undo" = "Fortryd";
+"@Name" = "Navn";
+"@Title" = "Titel";
+"@Part" = "Del";
+"@Description" = "Beskrivelse";

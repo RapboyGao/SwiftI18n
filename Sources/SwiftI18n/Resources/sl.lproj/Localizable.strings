@@ -58,3 +58,9 @@
 "@Upload" = "Naloži";
 "@View" = "Poglej";
 "@Warning" = "Opozorilo";
+"@Redo" = "Ponovi";
+"@Undo" = "Razveljavi";
+"@Name" = "Ime";
+"@Title" = "Naziv";
+"@Part" = "Del";
+"@Description" = "Opis";

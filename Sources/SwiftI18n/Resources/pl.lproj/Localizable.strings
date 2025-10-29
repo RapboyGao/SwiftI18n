@@ -58,3 +58,9 @@
 "@Upload" = "Prześlij";
 "@View" = "Wyświetl";
 "@Warning" = "Ostrzeżenie";
+"@Redo" = "Ponów";
+"@Undo" = "Cofnij";
+"@Name" = "Nazwa";
+"@Title" = "Tytuł";
+"@Part" = "Część";
+"@Description" = "Opis";

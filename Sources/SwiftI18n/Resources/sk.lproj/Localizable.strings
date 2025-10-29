@@ -58,3 +58,9 @@
 "@Upload" = "Nahrať";
 "@View" = "Zobraziť";
 "@Warning" = "Varovanie";
+"@Redo" = "Zopakovať";
+"@Undo" = "Vrátiť späť";
+"@Name" = "Meno";
+"@Title" = "Názov";
+"@Part" = "Časť";
+"@Description" = "Popis";

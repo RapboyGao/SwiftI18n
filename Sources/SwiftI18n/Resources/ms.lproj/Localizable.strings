@@ -58,3 +58,9 @@
 "@Upload" = "Muat Naik";
 "@View" = "Lihat";
 "@Warning" = "Amaran";
+"@Redo" = "Lakukan semula";
+"@Undo" = "Batalkan";
+"@Name" = "Nama";
+"@Title" = "Tajuk";
+"@Part" = "Bahagian";
+"@Description" = "Penerangan";

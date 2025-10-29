@@ -58,3 +58,9 @@
 "@Upload" = "I-upload";
 "@View" = "Tingnan";
 "@Warning" = "Babala";
+"@Redo" = "Gawin muli";
+"@Undo" = "Bawiin";
+"@Name" = "Pangalan";
+"@Title" = "Pamagat";
+"@Part" = "Bahagi";
+"@Description" = "Paglalarawan";

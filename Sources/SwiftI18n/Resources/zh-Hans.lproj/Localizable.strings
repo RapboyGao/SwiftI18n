@@ -58,3 +58,9 @@
 "@Upload" = "上传";
 "@View" = "查看";
 "@Warning" = "警告";
+"@Redo" = "重做";
+"@Undo" = "撤销";
+"@Name" = "名称";
+"@Title" = "标题";
+"@Part" = "部分";
+"@Description" = "描述";

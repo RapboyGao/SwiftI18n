@@ -58,3 +58,9 @@
 "@Upload" = "Hochladen";
 "@View" = "Ansehen";
 "@Warning" = "Warnung";
+"@Redo" = "Wiederholen";
+"@Undo" = "Rückgängig";
+"@Name" = "Name";
+"@Title" = "Titel";
+"@Part" = "Teil";
+"@Description" = "Beschreibung";

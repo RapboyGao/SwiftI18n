@@ -58,3 +58,9 @@
 "@Upload" = "Feltöltés";
 "@View" = "Megtekintés";
 "@Warning" = "Figyelmeztetés";
+"@Redo" = "Újra";
+"@Undo" = "Visszavonás";
+"@Name" = "Név";
+"@Title" = "Cím";
+"@Part" = "Rész";
+"@Description" = "Leírás";

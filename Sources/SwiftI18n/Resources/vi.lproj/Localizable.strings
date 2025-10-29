@@ -58,3 +58,9 @@
 "@Upload" = "Tải lên";
 "@View" = "Xem";
 "@Warning" = "Cảnh báo";
+"@Redo" = "Làm lại";
+"@Undo" = "Hoàn tác";
+"@Name" = "Tên";
+"@Title" = "Tiêu đề";
+"@Part" = "Phần";
+"@Description" = "Mô tả";

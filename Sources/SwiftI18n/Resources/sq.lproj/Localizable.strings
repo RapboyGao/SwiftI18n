@@ -58,3 +58,9 @@
 "@Upload" = "Ngarko";
 "@View" = "Shikim";
 "@Warning" = "Kujdes";
+"@Redo" = "Ribëj";
+"@Undo" = "Kthe";
+"@Name" = "Emër";
+"@Title" = "Titull";
+"@Part" = "Pjesë";
+"@Description" = "Përshkrim";

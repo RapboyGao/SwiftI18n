@@ -58,3 +58,9 @@
 "@Upload" = "Pakia Juu";
 "@View" = "Tazama";
 "@Warning" = "Ongeza Taarifa";
+"@Redo" = "Fanya tena";
+"@Undo" = "Kurekebishana";
+"@Name" = "Jina";
+"@Title" = "Kichwa";
+"@Part" = "Sehemu";
+"@Description" = "Maelezo";

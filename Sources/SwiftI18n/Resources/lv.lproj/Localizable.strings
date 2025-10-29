@@ -58,3 +58,9 @@
 "@Upload" = "Augšupielādēt";
 "@View" = "Skatīt";
 "@Warning" = "Brīdinājums";
+"@Redo" = "Atkārtot";
+"@Undo" = "Atcelt";
+"@Name" = "Vārds";
+"@Title" = "Nosaukums";
+"@Part" = "Dalis";
+"@Description" = "Apraksts";

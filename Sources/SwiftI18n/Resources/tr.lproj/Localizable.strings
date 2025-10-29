@@ -58,3 +58,9 @@
 "@Upload" = "Yükle";
 "@View" = "Görüntüle";
 "@Warning" = "Uyarı";
+"@Redo" = "Yinele";
+"@Undo" = "Geri Al";
+"@Name" = "Ad";
+"@Title" = "Başlık";
+"@Part" = "Parça";
+"@Description" = "Açıklama";

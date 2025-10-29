@@ -58,3 +58,9 @@
 "@Upload" = "Laadi üles";
 "@View" = "Vaata";
 "@Warning" = "Hoiatus";
+"@Redo" = "Tehke uuesti";
+"@Undo" = "Tühista";
+"@Name" = "Nimi";
+"@Title" = "Pealkiri";
+"@Part" = "Osa";
+"@Description" = "Kirjeldus";

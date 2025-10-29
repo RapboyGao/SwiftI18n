@@ -58,3 +58,9 @@
 "@Upload" = "Ladda Upp";
 "@View" = "Visa";
 "@Warning" = "Varning";
+"@Redo" = "Gör om";
+"@Undo" = "Ångra";
+"@Name" = "Namn";
+"@Title" = "Titel";
+"@Part" = "Del";
+"@Description" = "Beskrivning";

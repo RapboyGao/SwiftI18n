@@ -58,3 +58,9 @@
 "@Upload" = "Lähetä ylös";
 "@View" = "Katso";
 "@Warning" = "Varoitus";
+"@Redo" = "Toista";
+"@Undo" = "Kumoa";
+"@Name" = "Nimi";
+"@Title" = "Otsikko";
+"@Part" = "Osa";
+"@Description" = "Kuvaus";

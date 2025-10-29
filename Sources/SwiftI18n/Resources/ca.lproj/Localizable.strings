@@ -58,3 +58,9 @@
 "@Upload" = "Pujar";
 "@View" = "Veure";
 "@Warning" = "Avís";
+"@Redo" = "Refés";
+"@Undo" = "Desfés";
+"@Name" = "Nom";
+"@Title" = "Títol";
+"@Part" = "Part";
+"@Description" = "Descripció";

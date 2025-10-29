@@ -58,3 +58,9 @@
 "@Upload" = "Caricare";
 "@View" = "Visualizza";
 "@Warning" = "Avviso";
+"@Redo" = "Ripetere";
+"@Undo" = "Annullare";
+"@Name" = "Nome";
+"@Title" = "Titolo";
+"@Part" = "Parte";
+"@Description" = "Descrizione";

@@ -58,3 +58,9 @@
 "@Upload" = "Uploaden";
 "@View" = "Bekijken";
 "@Warning" = "Waarschuwing";
+"@Redo" = "Herhalen";
+"@Undo" = "Ongedaan maken";
+"@Name" = "Naam";
+"@Title" = "Titel";
+"@Part" = "Deel";
+"@Description" = "Beschrijving";

@@ -58,3 +58,9 @@
 "@Upload" = "Last opp";
 "@View" = "Vis";
 "@Warning" = "Advarsel";
+"@Redo" = "Gjør igjen";
+"@Undo" = "Angre";
+"@Name" = "Navn";
+"@Title" = "Tittel";
+"@Part" = "Del";
+"@Description" = "Beskrivelse";

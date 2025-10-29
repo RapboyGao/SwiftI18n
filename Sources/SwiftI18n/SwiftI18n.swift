@@ -129,6 +129,18 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case view = "@View"
     /// 警告
     case warning = "@Warning"
+    /// 重做
+    case redo = "@Redo"
+    /// 撤销
+    case undo = "@Undo"
+    /// 名称
+    case name = "@Name"
+    /// 标题
+    case title = "@Title"
+    /// 部分
+    case part = "@Part"
+    /// 描述
+    case descriptionKey = "@Description"
 
     /// A list of all supported languages for internationalization.
     ///
@@ -216,6 +228,12 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         case .upload: return "arrow.up.circle"
         case .view: return "eye"
         case .warning: return "exclamationmark.triangle"
+        case .redo: return "arrow.clockwise"
+        case .undo: return "arrow.counterclockwise"
+        case .name: return "textformat"
+        case .title: return "textformat.size.larger"
+        case .part: return "square.split.bottomrightquarter"
+        case .descriptionKey: return "doc.text"
         }
     }
 

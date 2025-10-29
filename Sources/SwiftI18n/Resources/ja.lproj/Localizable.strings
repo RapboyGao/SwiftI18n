@@ -58,3 +58,9 @@
 "@Upload" = "アップロード";
 "@View" = "表示";
 "@Warning" = "警告";
+"@Redo" = "やり直し";
+"@Undo" = "元に戻す";
+"@Name" = "名前";
+"@Title" = "タイトル";
+"@Part" = "部分";
+"@Description" = "説明";

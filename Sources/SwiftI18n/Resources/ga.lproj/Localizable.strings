@@ -58,3 +58,9 @@
 "@Upload" = "Uaslódáil";
 "@View" = "Féach";
 "@Warning" = "Rabhadh";
+"@Redo" = "Déan arís";
+"@Undo" = "Díscaoileadh";
+"@Name" = "Ainm";
+"@Title" = "Teideal";
+"@Part" = "Cuid";
+"@Description" = "Cur síos";

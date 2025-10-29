@@ -58,3 +58,9 @@
 "@Upload" = "Llwytho i fyny";
 "@View" = "Gweld";
 "@Warning" = "Rhybudd";
+"@Redo" = "Gwnewch eto";
+"@Undo" = "Dadwneud";
+"@Name" = "Enw";
+"@Title" = "Teitl";
+"@Part" = "Rhan";
+"@Description" = "Disgrifiad";

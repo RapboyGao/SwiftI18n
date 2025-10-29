@@ -58,3 +58,9 @@
 "@Upload" = "Hlaða upp";
 "@View" = "Skoða";
 "@Warning" = "Aðvörun";
+"@Redo" = "Endurtaka";
+"@Undo" = "Afturkalla";
+"@Name" = "Heiti";
+"@Title" = "Titill";
+"@Part" = "Hluti";
+"@Description" = "Lýsing";

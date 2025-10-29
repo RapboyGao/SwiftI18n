@@ -58,3 +58,9 @@
 "@Upload" = "Încarcă";
 "@View" = "Vizualizează";
 "@Warning" = "Avertisment";
+"@Redo" = "Reface";
+"@Undo" = "Anulează";
+"@Name" = "Nume";
+"@Title" = "Titlu";
+"@Part" = "Parte";
+"@Description" = "Descriere";

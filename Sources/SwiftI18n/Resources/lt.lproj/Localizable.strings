@@ -58,3 +58,9 @@
 "@Upload" = "Įkelti";
 "@View" = "Peržiūrėti";
 "@Warning" = "Įspėjimas";
+"@Redo" = "Pakartoti";
+"@Undo" = "Atšaukti";
+"@Name" = "Vardas";
+"@Title" = "Pavadinimas";
+"@Part" = "Dalis";
+"@Description" = "Aprašymas";
