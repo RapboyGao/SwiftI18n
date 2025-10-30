@@ -88,7 +88,7 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     case quit = "@Quit"
     /// 刷新
     case refresh = "@Refresh"
-    
+
     /// 删除
     case remove = "@Remove"
     /// 重置
@@ -246,7 +246,7 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
     /// - Returns: The language bundle for the specified language, or the main bundle if no language is specified.
     public static func languageBundle(language: String? = nil) -> Bundle {
         guard let language = language,
-            let bundlePath = Bundle.module.resourcePath
+              let bundlePath = Bundle.module.resourcePath
         else {
             return .module
         }
@@ -278,7 +278,7 @@ public enum SwiftI18n: String, Codable, Sendable, Hashable, CaseIterable, Custom
         // Use main bundle instead of module bundle since we don't have resources
         // This ensures the app can still build properly
         NSLocalizedString(
-            rawValue, bundle: Bundle.main, comment: "The text shown on the button of \(rawValue)")
+            rawValue, bundle: .module, comment: "The text shown on the button of \(rawValue)")
     }
 
     @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
