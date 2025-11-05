@@ -1,6 +1,7 @@
 import Foundation
-@testable import SwiftI18n
 import Testing
+
+@testable import SwiftI18n
 
 @Test func testTranslationIntegrity() async throws {
     guard let bundlePath = Bundle.module.resourcePath else {
@@ -16,10 +17,14 @@ import Testing
 
     // 遍历每个语言包，检查是否有缺失的翻译
     for languageBundle in languageBundles {
-        let language = languageBundle.dropLast(6) // 移除 ".lproj" 后缀
-        let allTranslations = SwiftI18n.allCases.map { $0.localizedString(in: String(language)) }
+        let language = languageBundle.dropLast(6)  // 移除 ".lproj" 后缀
+        let allTranslations = SwiftI18n.allCases.map {
+            $0.localizedString(in: String(language))
+        }
         let noneTranslated = allTranslations.filter { $0.contains("@") }
         let numberOfNoneTranslated = noneTranslated.count
-        #expect(noneTranslated.isEmpty, "语言包 \(language) 缺失 \(numberOfNoneTranslated) 个翻译")
+        #expect(
+            noneTranslated.isEmpty,
+            "语言包 \(language) 缺失 \(numberOfNoneTranslated) 个翻译")
     }
 }
